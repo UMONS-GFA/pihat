@@ -18,7 +18,9 @@ This project is a template for a Raspberry Pi Hat that was build on the guide li
 To use this template first to design a new pihat, you must first create a new branch under git.  
 
 ```
-git checkout - b pihat_name
+git checkout - b PIHAT_NAME
+git push origin PIHAT_NAME
+git branch --set-upstream-to=origin/PIHAT_NAME PIHAT_NAME
 
 ```
 Open the project in KiCad, you may need to add the library "project-libs" using the library wizard. Then you can add your own components, once the components are added you can tie them to the 3.3v or 5v net depending on what voltages are required. Once done you can then choose the components from CvPCB application. Export the netlist and then import it in PCBNew. 
