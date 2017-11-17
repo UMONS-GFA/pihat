@@ -966,4 +966,32 @@ F 5 "2346885" H 9900 8550 60  0001 C CNN "Farnell Part No."
 $EndComp
 Wire Wire Line
 	7500 8150 7350 8150
+NoConn ~ 7200 2100
+NoConn ~ 7200 2200
+NoConn ~ 7200 2450
+NoConn ~ 7200 2550
+NoConn ~ 7200 2800
+NoConn ~ 7200 2900
+NoConn ~ 7200 3000
+NoConn ~ 7200 3100
+NoConn ~ 7200 3200
+NoConn ~ 7200 3600
+NoConn ~ 7200 3700
+NoConn ~ 7200 3800
+NoConn ~ 7200 3900
+NoConn ~ 7200 4000
+NoConn ~ 7200 4100
+NoConn ~ 7200 4200
+NoConn ~ 7200 4300
+NoConn ~ 7200 4400
+NoConn ~ 7200 4500
+NoConn ~ 7200 4600
+NoConn ~ 7200 4700
+NoConn ~ 7200 4800
+NoConn ~ 7200 4900
+NoConn ~ 7200 5000
+NoConn ~ 7200 5100
+NoConn ~ 7200 5200
+NoConn ~ 4650 2450
+NoConn ~ 4650 2550
 $EndSCHEMATC
