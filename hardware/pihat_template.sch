@@ -151,17 +151,6 @@ F 4 "?" H 950 5000 60  0001 C CNN "Farnell Part No."
 	-1   0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR03
-U 1 1 54E93A97
-P 2000 4150
-F 0 "#PWR03" H 2000 4110 30  0001 C CNN
-F 1 "+3.3V" H 2000 4260 30  0000 C CNN
-F 2 "" H 2000 4150 60  0000 C CNN
-F 3 "" H 2000 4150 60  0000 C CNN
-	1    2000 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R3
 U 1 1 54E93F03
 P 3850 4000
@@ -198,28 +187,6 @@ F 3 "" H 1600 5200 60  0000 C CNN
 F 4 "?" H 1600 5200 60  0001 C CNN "Farnell Part No."
 	1    1600 5200
 	1    0    0    1   
-$EndComp
-$Comp
-L +3.3V #PWR04
-U 1 1 54E95EC8
-P 4100 3650
-F 0 "#PWR04" H 4100 3610 30  0001 C CNN
-F 1 "+3.3V" H 4100 3760 30  0000 C CNN
-F 2 "" H 4100 3650 60  0000 C CNN
-F 3 "" H 4100 3650 60  0000 C CNN
-	1    4100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR06
-U 1 1 54E96A79
-P 3000 2100
-F 0 "#PWR06" H 3000 2190 20  0001 C CNN
-F 1 "+5V" H 3000 2190 30  0000 C CNN
-F 2 "" H 3000 2100 60  0000 C CNN
-F 3 "" H 3000 2100 60  0000 C CNN
-	1    3000 2100
-	0    -1   1    0   
 $EndComp
 $Comp
 L LM3489 U1
@@ -362,28 +329,6 @@ F 5 "1471036" H 3250 8350 60  0001 C CNN "Farnell Part No."
 	1    3250 8350
 	-1   0    0    -1  
 $EndComp
-$Comp
-L +5V #PWR011
-U 1 1 54E9DC45
-P 5600 7950
-F 0 "#PWR011" H 5600 8040 20  0001 C CNN
-F 1 "+5V" H 5600 8040 30  0000 C CNN
-F 2 "" H 5600 7950 60  0000 C CNN
-F 3 "" H 5600 7950 60  0000 C CNN
-	1    5600 7950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L +24V #PWR012
-U 1 1 54F050C6
-P 1100 8050
-F 0 "#PWR012" H 1100 8000 20  0001 C CNN
-F 1 "+24V" H 1100 8150 30  0000 C CNN
-F 2 "" H 1100 8050 60  0000 C CNN
-F 3 "" H 1100 8050 60  0000 C CNN
-	1    1100 8050
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 3100 2000 1250 200 
 U 54F145DC
@@ -408,17 +353,6 @@ F 4 "926-M1117IMPXADJNOPB" H 8100 8300 60  0001 C CNN "Mouser Part No."
 F 5 "2463930" H 8100 8300 60  0001 C CNN "Farnell Part No."
 	1    8100 8300
 	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR013
-U 1 1 54F3143A
-P 7350 7950
-F 0 "#PWR013" H 7350 8040 20  0001 C CNN
-F 1 "+5V" H 7350 8040 30  0000 C CNN
-F 2 "" H 7350 7950 60  0000 C CNN
-F 3 "" H 7350 7950 60  0000 C CNN
-	1    7350 7950
-	-1   0    0    -1  
 $EndComp
 $Comp
 L CP C6
@@ -485,17 +419,6 @@ F 5 "2379848" V 10550 9200 60  0001 C CNN "Farnell Part No."
 	1    10550 9200
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR018
-U 1 1 54F4475B
-P 10550 7950
-F 0 "#PWR018" H 10550 7910 30  0001 C CNN
-F 1 "+3.3V" H 10550 8060 30  0000 C CNN
-F 2 "" H 10550 7950 60  0000 C CNN
-F 3 "" H 10550 7950 60  0000 C CNN
-	1    10550 7950
-	1    0    0    -1  
-$EndComp
 Text Notes 2800 8000 0    60   ~ 0
 5v @ 2.1A DC/DC supply
 Text Notes 8450 7900 0    60   ~ 0
@@ -537,17 +460,6 @@ F 3 "" H 3350 6950 60  0000 C CNN
 F 4 "651-1904383" H 3350 6950 60  0001 C CNN "Mouser Part No."
 F 5 "2008004" H 3350 6950 60  0001 C CNN "Farnell Part No."
 	1    3350 6950
-	1    0    0    -1  
-$EndComp
-$Comp
-L +24V #PWR019
-U 1 1 54F662FB
-P 3050 6750
-F 0 "#PWR019" H 3050 6700 20  0001 C CNN
-F 1 "+24V" H 3050 6850 30  0000 C CNN
-F 2 "" H 3050 6750 60  0000 C CNN
-F 3 "" H 3050 6750 60  0000 C CNN
-	1    3050 6750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -974,4 +886,20 @@ Text GLabel 3900 5300 3    60   Input ~ 0
 GND
 Text GLabel 4500 3600 3    60   Input ~ 0
 GND
+Text GLabel 2000 4150 1    60   Input ~ 0
++3.3V
+Text GLabel 4100 3650 1    60   Input ~ 0
++3.3V
+Text GLabel 1100 8050 1    60   Input ~ 0
++24V
+Text GLabel 3050 6700 1    60   Input ~ 0
++24V
+Text GLabel 10550 7950 1    60   Input ~ 0
++3.3V
+Text GLabel 7350 7950 1    60   Input ~ 0
++5V
+Text GLabel 5600 7950 1    60   Input ~ 0
++5V
+Text GLabel 3000 2100 0    60   Input ~ 0
++5V
 $EndSCHEMATC
