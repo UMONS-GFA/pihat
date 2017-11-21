@@ -1,4 +1,4 @@
-update=mar 21 nov 2017 08:50:24 CET
+update=mar 21 nov 2017 20:04:08 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -26,8 +26,6 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.4
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=project_libs
@@ -119,3 +117,5 @@ LibName84=project_libs/mcp23017
 LibName85=project_libs/raspberry_pi_+_conn
 LibName86=project_libs/Ardas
 LibName87=project_libs/maxim
+[general]
+version=1

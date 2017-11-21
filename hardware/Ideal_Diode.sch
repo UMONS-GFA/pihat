@@ -85,14 +85,14 @@ LIBS:max1164x
 LIBS:mcp23017
 LIBS:raspberry_pi_+_conn
 LIBS:Ardas
-LIBS:pihat_template-cache
+LIBS:pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title ""
-Date ""
+Date "2017-11-21"
 Rev ""
 Comp ""
 Comment1 ""
@@ -175,10 +175,10 @@ F 5 "2324717" V 5800 4800 60  0001 C CNN "Farnell Part No."
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L GND #PWR07
 U 1 1 54F1D1B9
 P 6200 5200
-F 0 "#PWR05" H 6200 4950 60  0001 C CNN
+F 0 "#PWR07" H 6200 4950 60  0001 C CNN
 F 1 "GND" H 6200 5050 60  0000 C CNN
 F 2 "" H 6200 5200 60  0000 C CNN
 F 3 "" H 6200 5200 60  0000 C CNN
@@ -186,10 +186,10 @@ F 3 "" H 6200 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L GND #PWR08
 U 1 1 54F1D1D3
 P 5800 5200
-F 0 "#PWR06" H 5800 4950 60  0001 C CNN
+F 0 "#PWR08" H 5800 4950 60  0001 C CNN
 F 1 "GND" H 5800 5050 60  0000 C CNN
 F 2 "" H 5800 5200 60  0000 C CNN
 F 3 "" H 5800 5200 60  0000 C CNN
