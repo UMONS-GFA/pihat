@@ -84,6 +84,7 @@ LIBS:lm3489
 LIBS:max1164x
 LIBS:mcp23017
 LIBS:raspberry_pi_+_conn
+LIBS:Ardas
 LIBS:pihat_template-cache
 EELAYER 25 0
 EELAYER END
