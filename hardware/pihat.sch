@@ -512,45 +512,45 @@ NoConn ~ 7200 5100
 NoConn ~ 7200 5200
 NoConn ~ 4650 2450
 NoConn ~ 4650 2550
-Text GLabel 7350 9050 3    60   Input ~ 0
+Text GLabel 7350 9050 3    39   Input ~ 0
 GND
-Text GLabel 8100 9650 3    60   Input ~ 0
+Text GLabel 8100 9650 3    39   Input ~ 0
 GND
-Text GLabel 9900 9100 3    60   Input ~ 0
+Text GLabel 9900 9100 3    39   Input ~ 0
 GND
-Text GLabel 10550 9600 3    60   Input ~ 0
+Text GLabel 10550 9600 3    39   Input ~ 0
 GND
-Text GLabel 5050 10100 3    60   Input ~ 0
+Text GLabel 5050 10100 3    39   Input ~ 0
 GND
-Text GLabel 3050 10100 3    60   Input ~ 0
+Text GLabel 3050 10100 3    39   Input ~ 0
 GND
-Text GLabel 1550 10100 3    60   Input ~ 0
+Text GLabel 1550 10100 3    39   Input ~ 0
 GND
-Text GLabel 1100 8950 3    60   Input ~ 0
+Text GLabel 1100 8950 3    39   Input ~ 0
 GND
-Text GLabel 3050 7150 3    60   Input ~ 0
+Text GLabel 3050 7150 3    39   Input ~ 0
 GND
-Text GLabel 2400 5300 3    60   Input ~ 0
+Text GLabel 2400 5300 3    39   Input ~ 0
 GND
-Text GLabel 3900 5300 3    60   Input ~ 0
+Text GLabel 3900 5300 3    39   Input ~ 0
 GND
-Text GLabel 4500 3600 3    60   Input ~ 0
+Text GLabel 4500 3600 3    39   Input ~ 0
 GND
-Text GLabel 2000 4150 1    60   Input ~ 0
+Text GLabel 2000 4150 1    39   Input ~ 0
 +3.3V
-Text GLabel 4100 3650 1    60   Input ~ 0
+Text GLabel 4100 3650 1    39   Input ~ 0
 +3.3V
-Text GLabel 1100 8050 1    60   Input ~ 0
+Text GLabel 1100 8050 1    39   Input ~ 0
 +24V
-Text GLabel 3050 6750 1    60   Input ~ 0
+Text GLabel 3050 6750 1    39   Input ~ 0
 +24V
-Text GLabel 10550 7950 1    60   Input ~ 0
+Text GLabel 10550 7950 1    39   Input ~ 0
 +3.3V
-Text GLabel 7350 7950 1    60   Input ~ 0
+Text GLabel 7350 7950 1    39   Input ~ 0
 +5V
-Text GLabel 5600 7950 1    60   Input ~ 0
+Text GLabel 5600 7950 1    39   Input ~ 0
 +5V
-Text GLabel 3000 2100 0    60   Input ~ 0
+Text GLabel 3000 2100 0    39   Input ~ 0
 +5V
 $Comp
 L PWR_FLAG #FLG01
@@ -563,7 +563,7 @@ F 3 "" H 950 6300 50  0000 C CNN
 	1    950  6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1400 6350 1    60   Input ~ 0
+Text GLabel 1400 6350 1    39   Input ~ 0
 +24V
 $Comp
 L +24V #PWR02
@@ -587,7 +587,7 @@ F 3 "" H 950 6750 50  0000 C CNN
 	1    950  6750
 	1    0    0    -1  
 $EndComp
-Text GLabel 1400 6750 1    60   Input ~ 0
+Text GLabel 1400 6750 1    39   Input ~ 0
 GND
 $Comp
 L GND #PWR04
@@ -634,7 +634,7 @@ F 3 "" H 10450 3850 60  0000 C CNN
 	1    10450 3850
 	0    1    1    0   
 $EndComp
-Text GLabel 10050 3650 3    60   Input ~ 0
+Text GLabel 10050 3650 3    39   Input ~ 0
 GND
 $Comp
 L Jumper_NO_Small JP2
@@ -647,7 +647,7 @@ F 3 "" H 10050 2400 50  0000 C CNN
 	1    10050 2400
 	0    1    1    0   
 $EndComp
-Text GLabel 10050 2300 1    60   Input ~ 0
+Text GLabel 10050 2300 1    39   Input ~ 0
 GND
 $Comp
 L R R13
@@ -682,14 +682,14 @@ F 3 "" H 11050 2450 50  0000 C CNN
 	1    11050 2450
 	0    -1   -1   0   
 $EndComp
-Text GLabel 11400 2100 2    60   Input ~ 0
+Text GLabel 11400 2100 2    39   Input ~ 0
 +5V
-Text GLabel 10000 1550 2    60   Input ~ 0
+Text GLabel 10000 1550 2    39   Input ~ 0
 GND
-Text GLabel 7200 2100 2    60   Input ~ 0
-PIN3
-Text GLabel 7200 2200 2    60   Input ~ 0
-PIN5
+Text GLabel 7200 2100 2    39   Input ~ 0
+I2C_SDA
+Text GLabel 7200 2200 2    39   Input ~ 0
+I2C_SCL
 $Comp
 L DS1307 IC1
 U 1 1 5A13EB02
@@ -701,11 +701,11 @@ F 3 "" H 10350 3150 60  0000 C CNN
 	1    10350 3150
 	0    1    -1   0   
 $EndComp
-Text GLabel 10450 2050 1    60   Input ~ 0
-PIN3
-Text GLabel 10650 2500 1    60   Input ~ 0
-PIN5
-Text GLabel 12550 1450 1    60   Input ~ 0
+Text GLabel 10450 2050 1    39   Input ~ 0
+I2C_SDA
+Text GLabel 10650 2500 1    39   Input ~ 0
+I2C_SCL
+Text GLabel 12550 1450 1    39   Input ~ 0
 +5V
 Text GLabel 13000 1750 0    39   Input ~ 0
 GND
@@ -720,13 +720,13 @@ F 3 "" H 12550 1700 50  0000 C CNN
 	1    12550 1700
 	1    0    0    -1  
 $EndComp
-Text GLabel 7200 3600 2    60   Input ~ 0
-Pin7
+Text GLabel 7200 3600 2    39   Input ~ 0
+1-Wire
 Text GLabel 12300 1850 0    39   Input ~ 0
-Pin7
-Text GLabel 7200 2450 2    60   Input ~ 0
+1-Wire
+Text GLabel 7200 2450 2    39   Input ~ 0
 UART_TXD
-Text GLabel 7200 2550 2    60   Input ~ 0
+Text GLabel 7200 2550 2    39   Input ~ 0
 UART_RXD
 Text GLabel 13000 1950 0    39   Input ~ 0
 UART_TXD
@@ -1052,7 +1052,7 @@ Connection ~ 11250 2100
 Wire Wire Line
 	10900 2100 10450 2100
 Connection ~ 10450 2100
-Text GLabel 11250 3650 2    60   Input ~ 0
+Text GLabel 11250 3650 2    39   Input ~ 0
 +5V
 Wire Wire Line
 	10650 3550 10650 3650
@@ -1071,7 +1071,7 @@ F 3 "" H 1900 6300 50  0000 C CNN
 	1    1900 6300
 	1    0    0    -1  
 $EndComp
-Text GLabel 2350 6350 1    60   Input ~ 0
+Text GLabel 2350 6350 1    39   Input ~ 0
 +5V
 $Comp
 L +5V #PWR_5V06
