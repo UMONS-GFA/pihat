@@ -707,7 +707,7 @@ Text GLabel 10650 2500 1    60   Input ~ 0
 PIN5
 Text GLabel 12550 1450 1    60   Input ~ 0
 +5V
-Text GLabel 13000 1750 0    60   Input ~ 0
+Text GLabel 13000 1750 0    39   Input ~ 0
 GND
 $Comp
 L R R16
@@ -722,16 +722,16 @@ F 3 "" H 12550 1700 50  0000 C CNN
 $EndComp
 Text GLabel 7200 3600 2    60   Input ~ 0
 Pin7
-Text GLabel 12300 1850 0    60   Input ~ 0
+Text GLabel 12300 1850 0    39   Input ~ 0
 Pin7
 Text GLabel 7200 2450 2    60   Input ~ 0
-PIN8
+UART_TXD
 Text GLabel 7200 2550 2    60   Input ~ 0
-PIN10
+UART_RXD
 Text GLabel 13000 1950 0    39   Input ~ 0
-PIN8
+UART_TXD
 Text GLabel 13000 2150 0    39   Input ~ 0
-PIN10
+UART_RXD
 Connection ~ 4100 3700
 Wire Wire Line
 	3850 3700 3850 3850
