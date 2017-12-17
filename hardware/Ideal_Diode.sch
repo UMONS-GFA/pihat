@@ -85,6 +85,7 @@ LIBS:max1164x
 LIBS:mcp23017
 LIBS:raspberry_pi_+_conn
 LIBS:Ardas
+LIBS:oki-78sr-5_1.5
 LIBS:pihat-cache
 EELAYER 25 0
 EELAYER END

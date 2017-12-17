@@ -85,12 +85,13 @@ LIBS:max1164x
 LIBS:mcp23017
 LIBS:raspberry_pi_+_conn
 LIBS:Ardas
+LIBS:oki-78sr-5_1.5
 LIBS:pihat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "pihat-1wire"
 Date "2017-11-21"
 Rev ""
@@ -183,166 +184,6 @@ F 6 "2303613" V 4100 4000 60  0001 C CNN "Part Number"
 	1    4100 4000
 	1    0    0    -1  
 $EndComp
-$Comp
-L LM3489 U1
-U 1 1 54E983ED
-P 2850 9000
-F 0 "U1" H 2450 9050 60  0000 C CNN
-F 1 "LM3489" H 3350 8400 60  0000 C CNN
-F 2 "project:LM3489" H 2850 9000 60  0001 C CNN
-F 3 "" H 2850 9000 60  0000 C CNN
-F 4 "Farnell" H 2850 9000 60  0001 C CNN "Supplier"
-F 5 "1312570" H 2850 9000 60  0001 C CNN "Part Number"
-	1    2850 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 54E985D4
-P 2000 8700
-F 0 "R2" V 2080 8700 40  0000 C CNN
-F 1 "24k" V 2007 8701 40  0000 C CNN
-F 2 "project:r_0805" V 1930 8700 30  0001 C CNN
-F 3 "" H 2000 8700 30  0000 C CNN
-F 4 "71-CRCW0402-24K-E3" V 2000 8700 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 2000 8700 60  0001 C CNN "Supplier"
-F 6 "2447613" V 2000 8700 60  0001 C CNN "Part Number"
-	1    2000 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C2
-U 1 1 54E98A38
-P 1550 9550
-F 0 "C2" H 1550 9650 40  0000 L CNN
-F 1 "0.1uf" H 1556 9465 40  0000 L CNN
-F 2 "project:c_0805" H 1588 9400 30  0001 C CNN
-F 3 "" H 1550 9550 60  0000 C CNN
-F 4 "810-C1005X5R1H104K" H 1550 9550 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" H 1550 9550 60  0001 C CNN "Supplier"
-F 6 "499687" H 1550 9550 60  0001 C CNN "Part Number"
-	1    1550 9550
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP C1
-U 1 1 54E990D4
-P 1100 8650
-F 0 "C1" H 1150 8750 40  0000 L CNN
-F 1 "50uf/50v" H 1150 8550 40  0000 L CNN
-F 2 "project:c_elec_6.3x7.7" H 1200 8500 30  0001 C CNN
-F 3 "" H 1100 8650 300 0000 C CNN
-F 4 "647-UUR1H470MCL6GS" H 1100 8650 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" H 1100 8650 60  0001 C CNN "Supplier"
-F 6 "1973367" H 1100 8650 60  0001 C CNN "Part Number"
-	1    1100 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 54E992BB
-P 1800 8700
-F 0 "C3" H 1800 8800 40  0000 L CNN
-F 1 "1nf" H 1806 8615 40  0000 L CNN
-F 2 "project:c_0805" H 1838 8550 30  0001 C CNN
-F 3 "" H 1800 8700 60  0000 C CNN
-F 4 "810-C1005C0G2A102J5C" H 1800 8700 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" H 1800 8700 60  0001 C CNN "Supplier"
-F 6 "2496935" H 1800 8700 60  0001 C CNN "Part Number"
-	1    1800 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 54E99E56
-P 3900 8700
-F 0 "R4" V 3980 8700 40  0000 C CNN
-F 1 "270" V 3907 8701 40  0000 C CNN
-F 2 "project:r_0805" V 3830 8700 30  0001 C CNN
-F 3 "" H 3900 8700 30  0000 C CNN
-F 4 "667-ERJ-P6WJ271V" V 3900 8700 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 3900 8700 60  0001 C CNN "Supplier"
-F 6 "2008375" V 3900 8700 60  0001 C CNN "Part Number"
-	1    3900 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L D_Schottky D1
-U 1 1 54E9A29D
-P 4200 8700
-F 0 "D1" H 4200 8800 40  0000 C CNN
-F 1 "DIODESCH" H 4200 8600 40  0000 C CNN
-F 2 "project:do214aa" H 4200 8700 60  0001 C CNN
-F 3 "" H 4200 8700 60  0000 C CNN
-F 4 "Farnell" H 4200 8700 60  0001 C CNN "Supplier"
-F 5 "2628293" H 4200 8700 60  0001 C CNN "Part Number"
-	1    4200 8700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L INDUCTOR L1
-U 1 1 54E9A542
-P 4600 8200
-F 0 "L1" V 4550 8200 40  0000 C CNN
-F 1 "22uH" V 4700 8200 40  0000 C CNN
-F 2 "project:inductor_smd_8x5mm" H 4600 8200 60  0001 C CNN
-F 3 "" H 4600 8200 60  0000 C CNN
-F 4 "652-SRN8040-220M" V 4600 8200 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 4600 8200 60  0001 C CNN "Supplier"
-F 6 "2061671" V 4600 8200 60  0001 C CNN "Part Number"
-	1    4600 8200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R6
-U 1 1 54E9A686
-P 5050 8700
-F 0 "R6" V 5130 8700 40  0000 C CNN
-F 1 "30k" V 5057 8701 40  0000 C CNN
-F 2 "project:r_0805" V 4980 8700 30  0001 C CNN
-F 3 "" H 5050 8700 30  0000 C CNN
-F 4 "594-MCT06030C3002FP5" V 5050 8700 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 5050 8700 60  0001 C CNN "Supplier"
-F 6 "2303701" V 5050 8700 60  0001 C CNN "Part Number"
-	1    5050 8700
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R7
-U 1 1 54E9A704
-P 5050 9650
-F 0 "R7" V 5130 9650 40  0000 C CNN
-F 1 "10k" V 5057 9651 40  0000 C CNN
-F 2 "project:r_0805" V 4980 9650 30  0001 C CNN
-F 3 "" H 5050 9650 30  0000 C CNN
-F 4 "71-CRCW0603-10K-E3" V 5050 9650 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 5050 9650 60  0001 C CNN "Supplier"
-F 6 "2447553" V 5050 9650 60  0001 C CNN "Part Number"
-	1    5050 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L FDC5614P U3
-U 1 1 54E9C27B
-P 3250 8350
-F 0 "U3" H 3100 8600 60  0000 C CNN
-F 1 "FDC5614P" H 3250 8100 60  0000 C CNN
-F 2 "project:sot23-6" H 3100 8500 60  0001 C CNN
-F 3 "" H 3100 8500 60  0000 C CNN
-F 4 "512-FDC5614P" H 3250 8350 60  0001 C CNN "Mouser Part No."
-F 5 "1471036" H 3250 8350 60  0001 C CNN "Part Number"
-F 6 "Farnell" H 3250 8350 60  0001 C CNN "Supplier"
-	1    3250 8350
-	-1   0    0    -1  
-$EndComp
-$Sheet
-S 3100 2000 1250 200 
-U 54F145DC
-F0 "Back Power Protection" 47
-F1 "Ideal_Diode.sch" 47
-F2 "5V_SUPPLY" I L 3100 2100 60 
-F3 "5V_MCU" I R 4350 2100 60 
-$EndSheet
 Text Notes 3000 1450 0    157  Italic 31
 Raspberry Pi Connection
 Text Notes 4900 6850 0    157  Italic 31
@@ -403,52 +244,8 @@ F 6 "2303483" V 9150 8600 60  0001 C CNN "Part Number"
 	1    9150 8600
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED D3
-U 1 1 54F3E98A
-P 10550 8550
-F 0 "D3" H 10550 8650 50  0000 C CNN
-F 1 "LED" H 10550 8450 50  0000 C CNN
-F 2 "project:Led_0603" H 10550 8550 60  0001 C CNN
-F 3 "" H 10550 8550 60  0000 C CNN
-F 4 "743-HT-191USD" H 10550 8550 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" H 10550 8550 60  0001 C CNN "Supplier"
-F 6 "1652083" H 10550 8550 60  0001 C CNN "Part Number"
-	1    10550 8550
-	0    1    1    0   
-$EndComp
-$Comp
-L R R10
-U 1 1 54F40F53
-P 10550 9200
-F 0 "R10" V 10630 9200 50  0000 C CNN
-F 1 "360" V 10557 9201 50  0000 C CNN
-F 2 "project:r_0805" V 10480 9200 30  0001 C CNN
-F 3 "" H 10550 9200 30  0000 C CNN
-F 4 "71-CRCW0603316RFKEB" V 10550 9200 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" V 10550 9200 60  0001 C CNN "Supplier"
-F 6 "2447642" V 10550 9200 60  0001 C CNN "Part Number"
-	1    10550 9200
-	1    0    0    -1  
-$EndComp
-Text Notes 2800 8000 0    60   ~ 0
-5v @ 2.1A DC/DC supply
 Text Notes 8450 7900 0    60   ~ 0
 3.3v @ 1.5A LDO supply
-$Comp
-L C C5
-U 1 1 54EE7CB1
-P 4800 8700
-F 0 "C5" H 4800 8800 40  0000 L CNN
-F 1 "0.1uf" H 4806 8615 40  0000 L CNN
-F 2 "project:c_0805" H 4838 8550 30  0001 C CNN
-F 3 "" H 4800 8700 60  0000 C CNN
-F 4 "810-C1005X5R1H104K" H 4800 8700 60  0001 C CNN "Mouser Part No."
-F 5 "Farnell" H 4800 8700 60  0001 C CNN "Supplier"
-F 6 "499687" H 4800 8700 60  0001 C CNN "Part Number"
-	1    4800 8700
-	1    0    0    -1  
-$EndComp
 $Comp
 L C C7
 U 1 1 54EE8291
@@ -475,7 +272,7 @@ F 4 "651-1904383" H 3350 6950 60  0001 C CNN " Mouser Part No."
 F 5 "Farnell" H 3350 6950 60  0001 C CNN "Supplier"
 F 6 "2008004" H 3350 6950 60  0001 C CNN "Part Number"
 	1    3350 6950
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L C C4
@@ -511,38 +308,19 @@ NoConn ~ 7200 3000
 NoConn ~ 7200 3100
 NoConn ~ 7200 3200
 NoConn ~ 7200 3700
-NoConn ~ 7200 3800
-NoConn ~ 7200 3900
-NoConn ~ 7200 4000
-NoConn ~ 7200 4100
-NoConn ~ 7200 4200
 NoConn ~ 7200 4300
-NoConn ~ 7200 4400
-NoConn ~ 7200 4500
-NoConn ~ 7200 4600
 NoConn ~ 7200 4700
 NoConn ~ 7200 4800
 NoConn ~ 7200 4900
 NoConn ~ 7200 5000
-NoConn ~ 7200 5100
 NoConn ~ 7200 5200
-NoConn ~ 4650 2450
-NoConn ~ 4650 2550
 Text GLabel 7350 9050 3    39   Input ~ 0
 GND
 Text GLabel 8100 9650 3    39   Input ~ 0
 GND
 Text GLabel 9900 9100 3    39   Input ~ 0
 GND
-Text GLabel 10550 9600 3    39   Input ~ 0
-GND
-Text GLabel 5050 10100 3    39   Input ~ 0
-GND
-Text GLabel 3050 10100 3    39   Input ~ 0
-GND
-Text GLabel 1550 10100 3    39   Input ~ 0
-GND
-Text GLabel 1100 8950 3    39   Input ~ 0
+Text GLabel 3250 9750 3    39   Input ~ 0
 GND
 Text GLabel 3050 7150 3    39   Input ~ 0
 GND
@@ -552,21 +330,19 @@ Text GLabel 3900 5300 3    39   Input ~ 0
 GND
 Text GLabel 4500 3600 3    39   Input ~ 0
 GND
-Text GLabel 2000 4150 1    39   Input ~ 0
+Text GLabel 2000 3650 1    39   Input ~ 0
 +3.3V
 Text GLabel 4100 3650 1    39   Input ~ 0
 +3.3V
-Text GLabel 1100 8050 1    39   Input ~ 0
+Text GLabel 2650 9050 0    39   Input ~ 0
 +24V
 Text GLabel 3050 6750 1    39   Input ~ 0
 +24V
-Text GLabel 10550 7950 1    39   Input ~ 0
+Text GLabel 9900 7950 1    39   Input ~ 0
 +3.3V
 Text GLabel 7350 7950 1    39   Input ~ 0
 +5V
-Text GLabel 5600 7950 1    39   Input ~ 0
-+5V
-Text GLabel 3000 2100 0    39   Input ~ 0
+Text GLabel 3900 9050 2    39   Input ~ 0
 +5V
 $Comp
 L PWR_FLAG #FLG01
@@ -593,37 +369,12 @@ F 3 "" H 1150 6400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG03
-U 1 1 5A0FA894
-P 950 6750
-F 0 "#FLG03" H 950 6845 50  0001 C CNN
-F 1 "PWR_FLAG" H 950 6930 50  0000 C CNN
-F 2 "" H 950 6750 50  0000 C CNN
-F 3 "" H 950 6750 50  0000 C CNN
-	1    950  6750
-	1    0    0    -1  
-$EndComp
-Text GLabel 1400 6750 1    39   Input ~ 0
-GND
-$Comp
-L GND #PWR04
-U 1 1 5A0FAA8E
-P 1150 6850
-F 0 "#PWR04" H 1150 6600 50  0001 C CNN
-F 1 "GND" H 1150 6700 50  0000 C CNN
-F 2 "" H 1150 6850 50  0000 C CNN
-F 3 "" H 1150 6850 50  0000 C CNN
-	1    1150 6850
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2100 9400
-$Comp
 L CONN_01X02 P4
 U 1 1 5A13DD6A
 P 9700 1600
 F 0 "P4" H 9700 1750 50  0000 C CNN
 F 1 "CONN_01X02" V 9800 1600 50  0000 C CNN
-F 2 "project:mkds_1.5-2" H 9700 1600 50  0001 C CNN
+F 2 "project:Pin_Header_Straight_1x02" H 9700 1600 50  0001 C CNN
 F 3 "" H 9700 1600 50  0000 C CNN
 F 4 "Farnell" H 9700 1600 60  0001 C CNN "Supplier"
 F 5 "2008004" H 9700 1600 60  0001 C CNN "Part Number"
@@ -663,43 +414,17 @@ GND
 $Comp
 L R R13
 U 1 1 5A14717A
-P 11050 1750
-F 0 "R13" V 11130 1750 50  0000 C CNN
-F 1 "4.7K" V 11050 1750 50  0000 C CNN
-F 2 "project:r_0805" V 10980 1750 50  0001 C CNN
-F 3 "" H 11050 1750 50  0000 C CNN
-F 4 "Farnell" V 11050 1750 60  0001 C CNN "Supplier"
-F 5 "9234098" V 11050 1750 60  0001 C CNN "Part Number"
-	1    11050 1750
+P 10550 1650
+F 0 "R13" V 10630 1650 50  0000 C CNN
+F 1 "4.7K" V 10550 1650 50  0000 C CNN
+F 2 "project:r_0805" V 10480 1650 50  0001 C CNN
+F 3 "" H 10550 1650 50  0000 C CNN
+F 4 "Farnell" V 10550 1650 60  0001 C CNN "Supplier"
+F 5 "9234098" V 10550 1650 60  0001 C CNN "Part Number"
+	1    10550 1650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L R R14
-U 1 1 5A147227
-P 11050 2100
-F 0 "R14" V 11130 2100 50  0000 C CNN
-F 1 "4.7K" V 11050 2100 50  0000 C CNN
-F 2 "project:r_0805" V 10980 2100 50  0001 C CNN
-F 3 "" H 11050 2100 50  0000 C CNN
-F 4 "Farnell" V 11050 2100 60  0001 C CNN "Supplier"
-F 5 "9234098" V 11050 2100 60  0001 C CNN "Part Number"
-	1    11050 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R15
-U 1 1 5A147321
-P 11050 2450
-F 0 "R15" V 10950 2450 50  0000 C CNN
-F 1 "4.7K" V 11050 2450 50  0000 C CNN
-F 2 "project:r_0805" V 10980 2450 50  0001 C CNN
-F 3 "" H 11050 2450 50  0000 C CNN
-F 4 "Farnell" V 11050 2450 60  0001 C CNN "Supplier"
-F 5 "9234098" V 11050 2450 60  0001 C CNN "Part Number"
-	1    11050 2450
-	0    -1   -1   0   
-$EndComp
-Text GLabel 11400 2100 2    39   Input ~ 0
+Text GLabel 10800 1650 2    39   Input ~ 0
 +5V
 Text GLabel 10000 1550 2    39   Input ~ 0
 GND
@@ -720,7 +445,7 @@ F 5 "2798724RL" H 10350 3150 60  0001 C CNN "Part Number"
 	1    10350 3150
 	0    1    -1   0   
 $EndComp
-Text GLabel 10450 2050 1    39   Input ~ 0
+Text GLabel 10450 2500 1    39   Input ~ 0
 I2C_SDA
 Text GLabel 10650 2500 1    39   Input ~ 0
 I2C_SCL
@@ -756,30 +481,6 @@ UART_RXD
 Text GLabel 11250 3650 2    39   Input ~ 0
 +5V
 $Comp
-L PWR_FLAG #FLG05
-U 1 1 5A14A5C8
-P 1900 6300
-F 0 "#FLG05" H 1900 6395 50  0001 C CNN
-F 1 "PWR_FLAG" H 1900 6480 50  0000 C CNN
-F 2 "" H 1900 6300 50  0000 C CNN
-F 3 "" H 1900 6300 50  0000 C CNN
-	1    1900 6300
-	1    0    0    -1  
-$EndComp
-Text GLabel 2350 6350 1    39   Input ~ 0
-+5V
-$Comp
-L +5V #PWR_5V06
-U 1 1 5A14A5CF
-P 2100 6400
-F 0 "#PWR_5V06" H 2100 6250 50  0001 C CNN
-F 1 "+5V" H 2100 6540 50  0000 C CNN
-F 2 "" H 2100 6400 50  0000 C CNN
-F 3 "" H 2100 6400 50  0000 C CNN
-	1    2100 6400
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X06 P5
 U 1 1 5A149505
 P 13350 1900
@@ -794,6 +495,109 @@ F 5 "2008008" H 13350 1900 60  0001 C CNN "Part Number"
 $EndComp
 Text GLabel 13000 2050 0    39   Input ~ 0
 GND
+$Comp
+L CONN_01X02 P6
+U 1 1 5A164A00
+P 9450 2050
+F 0 "P6" H 9450 2200 50  0000 C CNN
+F 1 "CONN_01X02" V 9550 2050 50  0000 C CNN
+F 2 "project:pin_strip_2" H 9450 2050 60  0001 C CNN
+F 3 "" H 9450 2050 60  0000 C CNN
+F 4 "Farnell" H 9450 2050 60  0001 C CNN "Supplier"
+F 5 "1593411" H 9450 2050 60  0001 C CNN "Part Number"
+	1    9450 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OKI-78SR-5/1.5_DC/DC_converter U1
+U 1 1 5A2522D0
+P 3250 9200
+F 0 "U1" H 3000 9500 60  0000 C CNN
+F 1 "OKI-78SR-5/1.5_DC/DC_converter" H 3250 8900 60  0000 C CNN
+F 2 "project:oki-78sr-5_1.5" H 3250 9150 60  0001 C CNN
+F 3 "" H 3250 9150 60  0000 C CNN
+	1    3250 9200
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2150 0    39   Input ~ 0
++5V
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 5A323A07
+P 11100 3650
+F 0 "JP4" H 11100 3730 50  0000 C CNN
+F 1 "RTC" H 11110 3590 50  0001 C CNN
+F 2 "project:small_no_jumper" H 11100 3650 50  0001 C CNN
+F 3 "" H 11100 3650 50  0000 C CNN
+	1    11100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 5A3240DC
+P 7350 8050
+F 0 "JP3" H 7350 8130 50  0000 C CNN
+F 1 "3.3V regulator" H 7360 7990 50  0001 C CNN
+F 2 "project:small_no_jumper" H 7350 8050 50  0001 C CNN
+F 3 "" H 7350 8050 50  0000 C CNN
+	1    7350 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP1
+U 1 1 5A324719
+P 2000 3900
+F 0 "JP1" H 2000 3980 50  0000 C CNN
+F 1 "3.3V hat" H 2010 3840 50  0001 C CNN
+F 2 "project:small_no_jumper" H 2000 3900 50  0001 C CNN
+F 3 "" H 2000 3900 50  0000 C CNN
+	1    2000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 5A32704B
+P 2350 3900
+F 0 "JP2" H 2350 3980 50  0000 C CNN
+F 1 "3.3V pi" H 2360 3840 50  0001 C CNN
+F 2 "project:small_no_jumper" H 2350 3900 50  0001 C CNN
+F 3 "" H 2350 3900 50  0000 C CNN
+	1    2350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X10 P7
+U 1 1 5A36C0C2
+P 8600 4750
+F 0 "P7" H 8600 5300 50  0000 C CNN
+F 1 "CONN_01X10" V 8700 4750 50  0000 C CNN
+F 2 "project:pin_socket_10" H 8600 4750 50  0001 C CNN
+F 3 "" H 8600 4750 50  0000 C CNN
+	1    8600 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP6
+U 1 1 5A36C1C9
+P 9150 4300
+F 0 "JP6" H 9150 4380 50  0000 C CNN
+F 1 "3.3V hat" H 9160 4240 50  0001 C CNN
+F 2 "project:small_no_jumper" H 9150 4300 50  0001 C CNN
+F 3 "" H 9150 4300 50  0000 C CNN
+	1    9150 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP7
+U 1 1 5A36C260
+P 9150 4400
+F 0 "JP7" H 9150 4480 50  0000 C CNN
+F 1 "GND" H 9160 4340 50  0001 C CNN
+F 2 "project:small_no_jumper" H 9150 4400 50  0001 C CNN
+F 3 "" H 9150 4400 50  0000 C CNN
+	1    9150 4400
+	-1   0    0    -1  
+$EndComp
 Wire Wire Line
 	2000 5200 2400 5200
 Wire Wire Line
@@ -803,36 +607,9 @@ Wire Wire Line
 Wire Wire Line
 	13000 1950 13150 1950
 Wire Wire Line
-	11250 2450 11200 2450
-Wire Wire Line
-	10850 2450 10900 2450
-Wire Wire Line
-	10850 2600 10850 2450
-Wire Wire Line
-	11250 1750 11250 2450
-Wire Wire Line
-	11200 1750 11250 1750
-Wire Wire Line
-	10250 1750 10900 1750
-Wire Wire Line
-	1900 6300 1900 6400
-Wire Wire Line
-	2350 6400 2350 6350
-Connection ~ 2100 6400
-Wire Wire Line
-	1900 6400 2350 6400
-Wire Notes Line
-	12000 6000 1600 6000
-Wire Wire Line
 	950  6300 950  6400
 Wire Wire Line
-	10650 3650 11250 3650
-Wire Wire Line
 	10650 3550 10650 3650
-Connection ~ 10450 2100
-Wire Wire Line
-	10900 2100 10450 2100
-Connection ~ 11250 2100
 Wire Wire Line
 	10250 4150 10250 3550
 Wire Wire Line
@@ -853,17 +630,9 @@ Wire Wire Line
 Wire Wire Line
 	9900 1550 10000 1550
 Wire Wire Line
-	10250 1650 9900 1650
-Connection ~ 10250 1750
-Connection ~ 10650 2600
-Wire Wire Line
-	10650 2600 10850 2600
+	9900 1650 10400 1650
 Wire Wire Line
 	10250 1650 10250 2650
-Wire Wire Line
-	11200 2100 11400 2100
-Wire Wire Line
-	10450 2050 10450 2650
 Wire Wire Line
 	10650 2500 10650 2650
 Connection ~ 10050 3600
@@ -879,13 +648,6 @@ Wire Wire Line
 	9400 2500 10050 2500
 Wire Wire Line
 	9400 2250 9400 2900
-Connection ~ 1150 6850
-Wire Wire Line
-	950  6750 950  6850
-Wire Wire Line
-	1400 6850 1400 6750
-Wire Wire Line
-	950  6850 1400 6850
 Wire Wire Line
 	1400 6400 1400 6350
 Connection ~ 1150 6400
@@ -894,13 +656,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 8150 7350 8150
 Wire Notes Line
-	11050 6000 650  6000
-Wire Notes Line
 	11050 10950 11050 6000
 Wire Notes Line
 	650  10950 11050 10950
-Wire Notes Line
-	650  6000 650  10950
 Wire Notes Line
 	600  850  600  5550
 Wire Notes Line
@@ -917,14 +675,7 @@ Wire Wire Line
 	3050 6900 3050 6750
 Wire Wire Line
 	3150 6900 3050 6900
-Connection ~ 10550 8150
-Wire Wire Line
-	10550 9350 10550 9600
-Wire Wire Line
-	10550 8750 10550 9050
 Connection ~ 9900 8150
-Wire Wire Line
-	10550 7950 10550 8350
 Connection ~ 9900 8950
 Wire Wire Line
 	9500 8950 9900 8950
@@ -934,10 +685,9 @@ Wire Wire Line
 	9150 8950 8100 8950
 Connection ~ 9500 8150
 Wire Wire Line
-	9900 8150 9900 8400
+	9900 7950 9900 8400
 Wire Wire Line
 	9500 8700 9500 8950
-Connection ~ 9150 8150
 Wire Wire Line
 	9500 8150 9500 8400
 Wire Wire Line
@@ -949,115 +699,11 @@ Wire Wire Line
 	9150 8750 9150 8950
 Wire Wire Line
 	8100 8850 8100 9150
-Wire Wire Line
-	9150 8150 9150 8450
-Wire Wire Line
-	8750 8150 10550 8150
 Connection ~ 7350 8150
-Wire Wire Line
-	7350 7950 7350 8500
-Connection ~ 1100 8200
-Wire Wire Line
-	5600 8200 5600 7950
-Wire Wire Line
-	3000 2100 3100 2100
-Connection ~ 2000 8200
-Connection ~ 3650 8400
-Wire Wire Line
-	3650 8500 3550 8500
-Connection ~ 3650 8300
-Wire Wire Line
-	3650 8400 3550 8400
-Connection ~ 3650 8200
-Wire Wire Line
-	3650 8200 3650 8500
-Wire Wire Line
-	3550 8300 3650 8300
-Connection ~ 3900 8200
-Wire Wire Line
-	2850 8500 2850 8700
-Wire Wire Line
-	2950 8500 2850 8500
-Connection ~ 5050 8200
-Connection ~ 3900 9950
-Wire Wire Line
-	4200 9950 4200 8850
-Connection ~ 4800 9250
-Wire Wire Line
-	4800 8850 4800 9250
-Connection ~ 5050 8400
-Wire Wire Line
-	4800 8400 5050 8400
-Wire Wire Line
-	4800 8400 4800 8550
-Wire Wire Line
-	4900 8200 5600 8200
-Wire Wire Line
-	5050 8200 5050 8550
-Connection ~ 5050 9250
-Wire Wire Line
-	5050 8850 5050 9500
-Wire Wire Line
-	5050 9800 5050 10100
-Connection ~ 4200 8200
-Wire Wire Line
-	4200 8200 4200 8550
-Wire Wire Line
-	3550 8200 4300 8200
-Wire Wire Line
-	3800 9250 5050 9250
-Wire Wire Line
-	3900 8850 3900 9100
-Wire Wire Line
-	3900 9100 3800 9100
-Wire Wire Line
-	3900 8200 3900 8550
-Wire Wire Line
-	1100 8800 1100 8950
-Connection ~ 1550 8200
-Wire Wire Line
-	1100 8050 1100 8500
-Connection ~ 2000 9100
-Wire Wire Line
-	1800 8850 1800 9100
-Connection ~ 1800 8200
-Wire Wire Line
-	1800 8200 1800 8550
-Connection ~ 3050 9950
-Wire Wire Line
-	3050 9950 4200 9950
-Wire Wire Line
-	3900 9400 3900 9950
-Wire Wire Line
-	3800 9400 3900 9400
-Wire Wire Line
-	3050 9850 3050 10100
-Wire Wire Line
-	1550 9700 1550 10100
-Connection ~ 1550 9250
-Wire Wire Line
-	1550 9250 2100 9250
-Wire Wire Line
-	1550 8200 1550 9400
-Wire Wire Line
-	1100 8200 2950 8200
-Wire Wire Line
-	2000 8200 2000 8550
-Wire Wire Line
-	2000 8850 2000 9100
-Wire Wire Line
-	1800 9100 2100 9100
 Connection ~ 2400 5050
 Wire Wire Line
 	2350 4850 2350 5050
 Connection ~ 2350 4400
-Connection ~ 4550 2100
-Wire Wire Line
-	4550 2200 4550 2100
-Wire Wire Line
-	4650 2200 4550 2200
-Wire Wire Line
-	4350 2100 4650 2100
 Connection ~ 4500 2900
 Wire Wire Line
 	4650 2900 4500 2900
@@ -1099,7 +745,7 @@ Wire Wire Line
 	2400 5050 2400 5300
 Connection ~ 2400 5200
 Wire Wire Line
-	2000 4150 2000 4500
+	2000 4000 2000 4500
 Wire Wire Line
 	2550 4400 2350 4400
 Wire Wire Line
@@ -1141,18 +787,112 @@ Wire Wire Line
 Wire Wire Line
 	3850 3700 3850 3850
 Connection ~ 4100 3700
-$Comp
-L CONN_01X02 P6
-U 1 1 5A164A00
-P 9450 2050
-F 0 "P6" H 9450 2200 50  0000 C CNN
-F 1 "CONN_01X02" V 9550 2050 50  0000 C CNN
-F 2 "project:pin_strip_2" H 9450 2050 60  0001 C CNN
-F 3 "" H 9450 2050 60  0000 C CNN
-F 4 "Farnell" H 9450 2050 60  0001 C CNN "Supplier"
-F 5 "1593411" H 9450 2050 60  0001 C CNN "Part Number"
-	1    9450 2050
-	0    -1   -1   0   
-$EndComp
 Connection ~ 9400 2500
+Wire Wire Line
+	4150 2150 4500 2150
+Wire Wire Line
+	4500 2100 4500 2200
+Wire Wire Line
+	4500 2100 4650 2100
+Wire Wire Line
+	4500 2200 4650 2200
+Connection ~ 4500 2150
+Wire Wire Line
+	10450 2500 10450 2650
+Connection ~ 10250 1650
+Wire Wire Line
+	10800 1650 10700 1650
+Wire Wire Line
+	9150 8150 9150 8450
+Connection ~ 9150 8150
+Wire Wire Line
+	8750 8150 9900 8150
+Wire Wire Line
+	10650 3650 11000 3650
+Wire Wire Line
+	11250 3650 11200 3650
+Wire Wire Line
+	2000 3650 2000 3800
+Wire Wire Line
+	2350 4400 2350 4000
+Wire Wire Line
+	7350 8150 7350 8500
+Wire Wire Line
+	9050 4300 8800 4300
+Wire Wire Line
+	8950 4300 8950 4150
+Wire Wire Line
+	8950 4150 9050 4150
+Connection ~ 8950 4300
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 5A36CA9D
+P 9150 4150
+F 0 "JP5" H 9150 4230 50  0000 C CNN
+F 1 "3.3V pi" H 9160 4090 50  0001 C CNN
+F 2 "project:small_no_jumper" H 9150 4150 50  0001 C CNN
+F 3 "" H 9150 4150 50  0000 C CNN
+	1    9150 4150
+	-1   0    0    -1  
+$EndComp
+Text GLabel 9400 4300 2    39   Input ~ 0
++3.3V
+Wire Wire Line
+	9400 4300 9250 4300
+Text GLabel 9400 4400 2    39   Input ~ 0
+GND
+Wire Wire Line
+	9400 4400 9250 4400
+Wire Wire Line
+	9050 4400 8800 4400
+Text GLabel 4250 2550 0    39   Input ~ 0
+Pi+3.3v
+Wire Wire Line
+	4650 2550 4250 2550
+Wire Wire Line
+	4500 2550 4500 2450
+Wire Wire Line
+	4500 2450 4650 2450
+Connection ~ 4500 2550
+Text GLabel 2350 3700 1    39   Input ~ 0
+Pi+3.3v
+Wire Wire Line
+	2350 3700 2350 3800
+Text GLabel 9350 4150 2    39   Input ~ 0
+Pi+3.3v
+Wire Wire Line
+	9350 4150 9250 4150
+Text GLabel 7200 3800 2    39   Input ~ 0
+GPIO6
+Text GLabel 8800 4600 2    39   Input ~ 0
+GPIO6
+Text GLabel 7200 3900 2    39   Input ~ 0
+GPIO12
+Text GLabel 8800 4500 2    39   Input ~ 0
+GPIO12
+Text GLabel 7200 4000 2    39   Input ~ 0
+GPIO13
+Text GLabel 8800 4700 2    39   Input ~ 0
+GPIO13
+Text GLabel 7200 4100 2    39   Input ~ 0
+GPIO16
+NoConn ~ 7200 4200
+Text GLabel 8800 4800 2    39   Input ~ 0
+GPIO16
+Text GLabel 7200 4400 2    39   Input ~ 0
+GPIO19
+Text GLabel 8800 4900 2    39   Input ~ 0
+GPIO19
+Text GLabel 7200 4500 2    39   Input ~ 0
+GPIO20
+Text GLabel 8800 5000 2    39   Input ~ 0
+GPIO20
+Text GLabel 7200 5100 2    39   Input ~ 0
+GPIO26
+Text GLabel 7200 4600 2    39   Input ~ 0
+GPIO21
+Text GLabel 8800 5200 2    39   Input ~ 0
+GPIO21
+Text GLabel 8800 5100 2    39   Input ~ 0
+GPIO26
 $EndSCHEMATC
