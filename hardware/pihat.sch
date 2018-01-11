@@ -516,6 +516,8 @@ F 0 "U1" H 3000 9500 60  0000 C CNN
 F 1 "OKI-78SR-5/1.5_DC/DC_converter" H 3250 8900 60  0000 C CNN
 F 2 "project:oki-78sr-5_1.5" H 3250 9150 60  0001 C CNN
 F 3 "" H 3250 9150 60  0000 C CNN
+F 4 "Farnell" H 3250 9200 60  0001 C CNN "Supplier"
+F 5 "2102101" H 3250 9200 60  0001 C CNN "Part Number"
 	1    3250 9200
 	1    0    0    -1  
 $EndComp
