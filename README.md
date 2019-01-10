@@ -1,28 +1,20 @@
-# Raspberry Pi Hat Template #
+# Raspberry Pi Hat 1-Wire #
 
-This project is a template for a Raspberry Pi Hat that was build on the guide lines published on github by the Raspberry Pi foundation. This template is designed to make it easier for hardware developers to design there own Rasberry Pi hats. The template was designed as a comprimse of cost, solderabilty, and footprint. The board has about 80% of its space still avalible to the user. The board also provides typical voltages that are required in many projects. The board is also capable of powering the Raspberry Pi. This makes this template sutable for development in automotive, industrial and home applications.
+This project is based on Raspberry Pi Hat template. 
+It has been modified to provide
+ready-to-use 1-wire connection.
 
-*This project is licensed under the CERN OHL v1.2*
+#Features
 
-### Features ###
+* larger footprints for resistors and capacitors, easier to solder (0805 imperial packages)
+* add serial connection, battery-backed clock, 1-wire connector
 
-- Input voltage 5.5v - 25v
-- 5v supply from DC/DC @ 2.1A
-- 3.3v supply from LDO @ 1.5A
-- Backpowering protection ciruit
-- Device ID eeprom
-- Compliant with Raspberry Pi Hat specifications
+## PCB layout
 
-### Basic Usage Guide ###
+![pihat-1wire pcb](pcb_layout.jpg)
 
-To use this template first to design a new pihat, you must first create a new branch under git.  
 
-```
-git checkout - b PIHAT_NAME
-git push origin PIHAT_NAME
-git branch --set-upstream-to=origin/PIHAT_NAME PIHAT_NAME
-```
-Open the project in KiCad, you may need to add the library "project-libs" using the library wizard. Then you can add your own components, once the components are added you can tie them to the 3.3v or 5v net depending on what voltages are required. Once done you can then choose the components from CvPCB application. Export the netlist and then import it in PCBNew. 
 
-### Customized design GFA-UMONS ###
-2017/10/31 Changed LM3489 footprint from MSOP to VSSOP 
+## 3D view
+
+![pihat-1wire 3D view](3d_view.jpg)
